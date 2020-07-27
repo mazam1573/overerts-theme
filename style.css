@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    text-transform: uppercase;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width: 30%;
+    margin-left: 15%;
+    float: left;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.navbar{
+    width: 50%;
+    float: right;
+}
+.navbar ul{
+    list-style: none;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.navbar ul li{
+    height: 10vh;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top:20px;
+    box-sizing: border-box;
+    /* text-align: center;
+    float: left;
+    margin-left: 30px;
+    box-sizing: border-box;
+    margin-top: 20px; */
+}
+.navbar ul li:hover{
+    background: teal;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navbar ul li a.active{
+    color: orange;
+}
+.slider{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,.6)),url('images/background-01.jpg');
+    background-position: 100% 100%;
+    background-size: cover;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding-top: 1px;
+}
+.slide-text{
+    width: 60%;
+    margin: auto;
+    margin-top: 140px;
+    text-transform: uppercase;
+}
+.slide-text h2{
+    font-weight: 200;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+.slide-text h1{
+    margin-top: 30px;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+.slide-text p{
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+.slide-text button{
+    margin-top: 80px;
+    width: 120px;
+    line-height: 40px;
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    margin-right: 30px;
+    box-shadow: 3px 3px 5px 3px teal;
+}
+.slide-text button.active{
+    background-color: orangered;
+}
+.slide-text button:hover{
+    background: teal;
+    box-shadow: 3px 3px 5px 3px orangered;
+}
+.service-section{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+}
+.service-head{
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    padding-top: 1px;
+}
+.service-head h2{
+    margin-top: 70px;
+    font-weight: 300;
+}
+.service-head p{
+    margin-top: 3px;
+}
+.services{
+    width: 75%;
+    margin: auto;
+}
+.serv{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.img-section{
+    width: 22%;
+    height: 25vh;
+    float: left;
+    
+}
+.img-section img{
+    border: 1px solid orangered;
+}
+.text-section{
+    width: 100%;
+}
+.text-section h3{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.text-section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-section a{
+    color: orangered;
+    text-decoration: none;
+}
+.text-section a span{
+    line-height: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.blog{
+    width: 100%;
+    height: 120vh;
+}
+.blog-head{
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    margin-top: 70px;
+    box-sizing: border-box;
+    color: rgb(44, 44, 44);
+}
+.post-section{
+    width: 75%;
+    height: 105vh;
+    margin: auto;
+}
+.post{
+    width: 50%;
+    float: left;
+    height: 30vh;
+}
+.imag{
+    height: 80%;
+    width: 50%;
+    float: left;
+}
+.imag img{
+    width: 100%;
+    height: 100%;
+}
+.post-text{
+    width: 47%;
+    height: 100%;
+    float: right;
+}
+.post-text h3{
+    text-transform: uppercase;
+}
+.post-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post-text a{
+    color: orangered;
+    text-decoration: none;
+}
+.post-text a span{
+    line-height: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.tour{
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('images/background-02.jpg');
+    background-position: 100% 100%;
+    background-size: cover;
+    color: whitesmoke;
+    padding-top: 1px;
+}
+.tour-head{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+}
+.tour-head h3{
+    text-transform: uppercase;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.tour-head p{
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.tour-post{
+    width: 75%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.t-post{
+    width: 25%;
+    height: 80%;
+    float: left;
+    text-align: center;
+}
+.t-post img{
+    height: 50%;
+}
+.t-post h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.t-post p{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.t-post button{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+}
+.t-post button:hover{
+    border: 1px solid white;
+    background: teal;
+}
+.t-post button span{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.contact{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding-top: 1px;
+}
+.contact-info{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+.about{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+}
+.about h2{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.social-icon{
+    width: 100%;
+    height: 16px;
+    margin-top: 20px;
+}
+.social-fa{
+    background-color: orangered;
+    width: 30px;
+    height: 24px;
+    padding: 3%;
+    text-align: center;
+    color: white;
+    /* box-shadow: 2px 2px 4px 3px teal; */
+    margin-right: 10px;
+}
+
+.social-fa:hover{
+    background-color: teal;
+    /* box-shadow: 2px 2px 4px 3px orangered; */
+}
+.fas{
+    float: left;
+    margin-right: 20px;
+}
+.about p{
+    width: 100%;
+    margin-top: 15px;
+}
+.about hr{
+    color: rgb(168, 168, 168);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about h3{
+    color: orangered;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+date{
+    font-size: 12px;
+    margin-top: -70px;
+}
+.foot-nav{
+    width: 100%;
+    height: 10vh;
+    background-color: orangered;
+    color: whitesmoke;
+}
+.foot-nav ul{
+    width: 80%;
+    margin: auto;
+    list-style: none;
+    box-sizing: border-box;
+}
+.foot-nav ul li{
+    float: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.336);
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    font-size: 18px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 12px;
+}
+.foot-nav ul li:nth-child(6){
+    border: none;
+}
+.foot-nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+.fa-home{
+    font-size: 16px;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(46, 46, 46);
+    padding-top: 1px;
+}
+.foot{
+    width: 80%;
+    margin: auto;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.left-foot{
+    width: 80%;
+    float: left;
+}
+.right-foot{
+    width: 20%;
+    float: right;
+}
